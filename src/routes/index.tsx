@@ -11,6 +11,10 @@ function App() {
         <h1 className="text-6xl font-bold">M9 tanstack counter</h1>
         <p>Press in the button to increase the counter</p>
         <div className="flex gap-4">
+
+
+
+
           <button
             className="bg-blue-400 font-bold rounded-3xl px-6 py-2"
             onClick={() => setCounter((prev) => prev + 1)}
