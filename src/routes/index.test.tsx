@@ -22,7 +22,7 @@ describe('Counter', () => {
 
   it('starts at 0', () => {
     render(<Counter />)
-    expect(screen.getByText('Counter: ')).toBeDefined()
+    expect(screen.getByText('Counter: 0')).toBeDefined()
   })
 
   it('increments the counter', () => {
